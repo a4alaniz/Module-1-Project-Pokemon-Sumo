@@ -247,8 +247,9 @@ class CommandLineInterface
         x = rand(1..4)
       
         if x == 1
-            UserPokemon.create(user_id: self.player.id, pokemon_id: pokemon.id, level: 1)
-            binding.pry
+            z = UserPokemon.create(user_id: self.player.id, pokemon_id: pokemon.id, level: 1)
+            z.save
+            @player = User.find_by(id: self.player.id)
             clear_screen
             pokeball
             puts "A #{pokemon.name.capitalize} joined your team!!!!!!!!"
