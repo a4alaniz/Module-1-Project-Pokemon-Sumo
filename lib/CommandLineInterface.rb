@@ -148,6 +148,7 @@ class CommandLineInterface
             puts "You beat 'em all!!!"
             puts "Congratulations #{self.player.name} you've got the heaviest pokemon team ever!"
             puts "Maybe you should start your challenge again."
+            sleep (2)
             return
         end
         clear_screen
@@ -160,6 +161,8 @@ class CommandLineInterface
         end
 
         puts "Your next challenge is #{self.currentboss.name}."
+        sleep(5)
+        clear_screen
         result = player_battle(self.player, self.currentboss)
         puts "after the dust clears, the final pokemon belongs to #{result.name}"
         if result == player
@@ -171,11 +174,13 @@ class CommandLineInterface
     
     end
     def lost_to_boss
+        thumbsdown
         puts "Sorry #{self.player.name} , #{self.currentboss.name} got you."
         puts "Train a little bit and then try again"
     end
 
     def beat_a_boss
+        thumbsup
         puts "Congratulations on beating #{self.currentboss.name}"
         player.level+=1
         player.save
