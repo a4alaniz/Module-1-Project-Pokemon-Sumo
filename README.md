@@ -29,21 +29,38 @@ Once you have all that set up you will now be able to enter into the world of Po
 
 Then you can either start a new game or continue a game like so: 
 
-(gif)
+![New Game Screen](/screenshots/new_game.png "New Game")
 
 At this point, if you enter 1 you will be assigned your very own pokemon to start your game off. 
 
 
 You will now be taken to a menu with 5 options like so and have a chance to train in order to level up (leveling up adds weight to your current Pokemon) and have new Pokemon added to your team, view the current Pokemon on your team along with their weight, battle a boss (3 total), restart your game, be able to give a Pokemon a nickname, and finally close the game. 
 
-Here is what happens when you train. 
+Here is what happens when you train.
 
-gif showing adding weight
-gif showing adding pokemon to team.
+You might lose...
+![Train](/screenshots/training.png "Training")
+
+Your Pokemon might get heavier...
+
+<img src= "screenshots/heavier.png"/>
+
+Or you might get a new Pokemon!
+
+<img src= "screenshots/join_team.png" width="246" height="388"/>
+
+And you can checkout all the Pokemon currently on your team!
+
+<img src= "screenshots/view_pokemon.png"/>
 
 Here is what happens when you battle a boss. 
 
-gif showing battling boss
+
+<img src= "screenshots/meowth.png" width="246" height="388"/>
+ 
+ ***
+
+<img src= "screenshots/beat_boss.png" width="246" height="388"/>
 
 ## Conclusion
 
