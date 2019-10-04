@@ -39,11 +39,11 @@ You will now be taken to a menu with 5 options like so and have a chance to trai
 Here is what happens when you train.
 
 You might lose...
-![Train](/screenshots/training.png "Training")
 
+<img src= "screenshots/training.png" width="601" height="750"/>
 Your Pokemon might get heavier...
 
-<img src= "screenshots/heavier.png"/>
+<img src= "screenshots/heavier.png" width="204" height="318"/>
 
 Or you might get a new Pokemon!
 
@@ -51,16 +51,16 @@ Or you might get a new Pokemon!
 
 And you can checkout all the Pokemon currently on your team!
 
-<img src= "screenshots/view_pokemon.png"/>
+<img src= "screenshots/view_pokemon.png" width="413" height="274"/>
 
 Here is what happens when you battle a boss. 
 
 
-<img src= "screenshots/meowth.png" width="246" height="388"/>
+<img src= "screenshots/meowth.png" width="333" height="356"/>
  
  ***
 
-<img src= "screenshots/beat_boss.png" width="246" height="388"/>
+<img src= "screenshots/beat_boss.png" width="333" height="335"/>
 
 ## Conclusion
 
