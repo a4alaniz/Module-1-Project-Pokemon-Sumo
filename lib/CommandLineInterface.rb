@@ -228,6 +228,7 @@ class CommandLineInterface
                 # call new_user
                 delete_user
                 new_user
+                clear_screen
                 # d = select_difficulty
                 # pokemon = first_pokemon(d)
                 pokemon = random_pokemon
